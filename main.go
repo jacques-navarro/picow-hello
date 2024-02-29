@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	led := machine.LED
+	led := machine.GP16
 	led.Configure(machine.PinConfig{
 		Mode: machine.PinOutput,
 	})
